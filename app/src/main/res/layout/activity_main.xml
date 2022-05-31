@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="horizontal"
     tools:context=".MainActivity">
+
     <com.example.midtexts1091787.MySurfaceView
         android:id="@+id/mysv"
         android:layout_width="match_parent"
@@ -37,6 +38,20 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/mysv"
         app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@drawable/start" />
+        app:srcCompat="@drawable/start"
+
+        />
+
+    <ImageView
+        android:id="@+id/image5"
+        android:layout_width="76dp"
+        android:layout_height="115dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginBottom="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintStart_toEndOf="@+id/img"
+        app:layout_constraintTop_toTopOf="@+id/img"
+        app:srcCompat="@drawable/pic" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
