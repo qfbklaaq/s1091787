@@ -58,8 +58,9 @@
         android:id="@+id/img3"
         android:layout_width="140dp"
         android:layout_height="137dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/fly1"
-        tools:layout_editor_absoluteX="7dp"
-        tools:layout_editor_absoluteY="207dp" />
+        tools:layout_editor_absoluteX="7dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
